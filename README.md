@@ -1,2 +1,3 @@
 # CoviDB-App
-CoviDB Android App. Includes various features feel free to explore.
+
+![](app/src/main/res/mipmap-xxxhdpi/Capture1.PNG)
