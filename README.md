@@ -4,6 +4,6 @@
 
 ## Table of Contents
 ### 1. About the App
-  ..* Built With
-  ..* Research
-  ..* Statistical Analysis
+⋅⋅* Built With.
+⋅⋅* Research.
+⋅⋅* Statistical Analysis.
