@@ -14,12 +14,28 @@ This is a familiar story not just in Delhi but also in Noida, Lucknow, Allahabad
 
 But most of India's population cannot afford to do this. There are already several reports of people dying at the doorsteps of hospitals because they couldn't afford to buy essential drugs and oxygen on the black market.
 ### App Overview
+![](app/src/main/res/mipmap-xxxhdpi/smartmockups_kp9bjp1y.jpg)
+
 With so much chaos we want to bring calmness in market. Help people in any way we can. CovidDB app provides various functionalities to deal with this such as :-
 
-#### 1.Review Forms
+#### 1. Review Forms
 With these forms user can fill in their application and review their hospitals and other pharmaceutical offices they have visited recently.New patients can read these reviews to get better understanding how nowadays these offices/pharmacy really work.
 
 To avoid fake review forms Secure Login and patient details are recorded.
 
-#### 2.Health Tracker Note Application
+#### 2. Health Tracker Note Application
 Still none of us are recording our general health stat on daily basis.Being a covid sufferer I know how important is to stay healthy on regular basis and record our health stats such temperature, Body Weight , Oxygen levels and other important stats. 
+
+#### 3. Helpline Info
+Idea is to track your health and if you fall sick then to help by providing helpline Numbers central as well as State wise.
+
+#### 4. Global Data Analysis
+Comparing how covid data are changing around compared to India could help us analyse country's performance against this pandemic.
+
+## Follow Protocols
+#### Wear Mask
+#### Sanitize Well
+#### Maintain Social Distancing
+
+![](app/src/main/res/mipmap-xxxhdpi/smartmockups_kp84g98c.jpg)
+
