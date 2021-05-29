@@ -3,7 +3,7 @@
 ![](app/src/main/res/mipmap-xxxhdpi/Capture1.PNG)
 
 
-## 1. About the App
+## About the App
 ### Developed Using Android Studio
 Android Studio is the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.It is available for download on Windows, macOS and Linux based operating systems or as a subscription-based service in 2020.It is a replacement for the Eclipse Android Development Tools (E-ADT) as the primary IDE for native Android application development.
 ### Research
@@ -13,3 +13,13 @@ So she finally turned to the black market. She paid a hefty amount - 50,000 rupe
 This is a familiar story not just in Delhi but also in Noida, Lucknow, Allahabad, Indore and so many other cities where families are desperately cobbling together makeshift arrangements at home.
 
 But most of India's population cannot afford to do this. There are already several reports of people dying at the doorsteps of hospitals because they couldn't afford to buy essential drugs and oxygen on the black market.
+### App Overview
+With so much chaos we want to bring calmness in market. Help people in any way we can. CovidDB app provides various functionalities to deal with this such as :-
+
+#### 1.Review Forms
+With these forms user can fill in their application and review their hospitals and other pharmaceutical offices they have visited recently.New patients can read these reviews to get better understanding how nowadays these offices/pharmacy really work.
+
+To avoid fake review forms Secure Login and patient details are recorded.
+
+#### 2.Health Tracker Note Application
+Still none of us are recording our general health stat on daily basis.Being a covid sufferer I know how important is to stay healthy on regular basis and record our health stats such temperature, Body Weight , Oxygen levels and other important stats. 
