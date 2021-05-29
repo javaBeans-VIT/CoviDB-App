@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HelplineActivity">
+    <TextView
+        android:id="@+id/CentralHelpline"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:layout_height="50dp"
+        android:text="Central Helpline Number for corona-virus: - +91-11-23978046"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:fontFamily="@string/bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/CentralHelpline">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:paddingLeft="40dp"
+            android:text=
+
+            "Andaman Islands        03192-232102
+            \nChandigarh                      9779558282
+            \nDadra Nagar Haveli                       104
+            \nDaman  Diu                                     104
+            \nDelhi                             011-22307145
+            \nJammu                          01912520982
+            \nKashmir                        0194-2440283
+            \nLadakh                           01982256462
+            \nLakshadweep                                 104
+            \nPuducherry                                     104
+            \nAndhra Pradesh          0866-2410978
+             \nArunachal Pradesh        9436055743
+            \nAssam                             6913347770
+            \nBihar                                                104
+            \nChhattisgarh                                   104
+            \nGoa                                                  104
+            \nGujarat                                             104
+            \nHaryana                           8558893911
+            \nHimachal Pradesh                         104
+            \nJharkhand                                       104
+            \nKarnataka                                        104
+            \nKerala                            0471-2552056
+            \nMadhya Pradesh                            104
+            \nMaharashtra                020-26127394
+            \nManipur                            3852411668
+            \nMeghalaya                                       108
+            \nMizoram                                           102
+            \nNagaland                          7005539653
+            \nOdisha                               9439994859
+            \nPunjab                                              104
+            \nRajasthan                      0141-2225624
+            \nSikkim                                               104
+            \nTamil Nadu                    044-29510500
+            \nTelangana                                         104
+            \nTripura                            0381-2315879
+            \nUttarakhand                                      104
+            \nUttar Pradesh                 18001805145
+            \nWest Bengal                1800313444222"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/backgroundbtn"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

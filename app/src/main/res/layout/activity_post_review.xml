@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostReviewActivity"
+    android:background="@drawable/postreviewbackground">
+
+    <EditText
+        android:id="@+id/postReviewPatientName"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        android:hint="Patient Name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/postReviewPatientID"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postReviewPatientName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:hint="Patient ID"
+        android:textColor="#E91E63"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/postReviewHospitalName"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postReviewPatientID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:hint="Hospital Name"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/postReviewAddress"
+        android:layout_width="350dp"
+        android:textColor="@color/black"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postReviewHospitalName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:hint="Address"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="278dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postReviewAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:background="@drawable/backgroundbtn"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient Photo/Document"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/postReviewAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintHorizontal_bias="0.1"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="291dp" />
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="284dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:hint="Description"
+        android:textColorHint="@color/black"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="276dp"
+        android:textColor="@color/black"
+        android:background="@drawable/backgroundbtn"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingButtonToPosts"
+        android:src="@drawable/review"
+        app:maxImageSize="40dp"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

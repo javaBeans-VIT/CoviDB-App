@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="ld_activityScreenTitles">
+        <item></item>
+        <item>DashBoard</item>
+        <item>Account</item>
+        <item>Statistics</item>
+        <item>About Us</item>
+        <item>Settings</item>
+        <item/>
+        <item>Log Out</item>
+    </string-array>
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/close</item>
+        <item>@drawable/home</item>
+        <item>@drawable/myaccount</item>
+        <item>@drawable/statistics</item>
+        <item>@drawable/aboutus</item>
+        <item>@drawable/settings</item>
+        <item></item>
+        <item>@drawable/logout</item>
+
+    </array>
+</resources>

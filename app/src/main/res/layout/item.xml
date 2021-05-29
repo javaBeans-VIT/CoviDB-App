@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edit_text"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/ReviewActivityPatientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:text="Patient Name"
+            android:textStyle="bold"
+            android:textColor="#E91E63"
+            android:textSize="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/ReviewActivityPatientID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient ID"
+            android:textColor="#E91E63"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/ReviewActivityHospitalName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hospital Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                android:layout_marginStart="20dp" />
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/ReviewActivityHospitalAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital Address"
+            android:textColor="#CD000000"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Description"
+            android:textColor="@color/teal_700"
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReviewActivityDescription"
+            android:text="Sanitation issue\nEmergency Services not available "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

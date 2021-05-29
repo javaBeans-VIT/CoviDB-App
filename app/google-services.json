@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "554911962867",
+    "project_id": "coviddb-88ed7",
+    "storage_bucket": "coviddb-88ed7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554911962867:android:3100cda5f9f19bf75bc986",
+        "android_client_info": {
+          "package_name": "com.example.coviddb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554911962867-jmdcoujmsdrc6f3p5rda8fub2020ktbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_eSb6WtD-zXC7-jdJtFsC0fGLjcbv-yE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554911962867-jmdcoujmsdrc6f3p5rda8fub2020ktbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

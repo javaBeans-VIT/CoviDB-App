@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#728786">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fragment2img"
+            android:layout_width="230dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:src="@mipmap/doctors"/>
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="CovidDB"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="20dp"
+            android:text="Skip"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/Vaccine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="330dp"
+            android:text="Review"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/Centres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="350dp"
+            android:text="Centres"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/textfrag2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="420dp"
+            android:text="Review hospitals and other pharmaceutical offices you have visited and rate their service. Feel free to look at other reviews posted by patients."
+            android:textSize="18dp"
+            android:fontFamily="@string/semi"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:id="@+id/tab3"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/tab3" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:background="@drawable/next_arrow"
+            android:layout_marginTop="550dp"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/next_arrow" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

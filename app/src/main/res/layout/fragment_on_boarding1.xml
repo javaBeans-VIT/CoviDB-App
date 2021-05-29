@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#269796">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="CovidDB"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:text="Follow"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@string/bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/Protocols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:text="Protocols"
+            android:textSize="40dp"
+            android:fontFamily="@string/bold"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="20dp"
+            android:text="Skip"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/mask"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:textAlignment="center"
+            android:fontFamily="@string/semi"
+            android:text="Fit the mask snugly against the sides of your face, slipping the loops over your ears or tying the strings behind your head."
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:text="If possible, maintain 2 feet between the person who is sick and other household members and 6 feet with outsiders."
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:fontFamily="@string/semi"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/vaccine"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="400dp"
+            android:textAlignment="center"
+            android:text="Authorized COVID-19 vaccines can help protect you from COVID-19 search nearby centres to get vaccinated."
+            android:textColor="@color/black"
+            android:fontFamily="@string/semi"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/maskImg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="500dp"
+            android:src="@mipmap/mask" />
+        <ImageView
+            android:id="@+id/vaccineImg"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="500dp"
+            android:src="@mipmap/vaccine" />
+
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
