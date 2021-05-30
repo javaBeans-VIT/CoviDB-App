@@ -32,6 +32,11 @@ Idea is to track your health and if you fall sick then to help by providing help
 #### 4. Global Data Analysis
 Comparing how covid data are changing around compared to India could help us analyse country's performance against this pandemic.
 
+
+## Download Our App
+
+https://drive.google.com/drive/folders/1Q13s-EWw-VIB8DknBYBISHFnz_W04QuQ?usp=sharing
+
 ## Follow Protocols
 #### Wear Mask
 #### Sanitize Well
