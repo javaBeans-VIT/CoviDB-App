@@ -35,7 +35,7 @@ Comparing how covid data are changing around compared to India could help us ana
 
 ## Download Our App
 
-https://drive.google.com/drive/folders/1Q13s-EWw-VIB8DknBYBISHFnz_W04QuQ?usp=sharing
+<a href='https://drive.google.com/uc?id=1Q13s-EWw-VIB8DknBYBISHFnz_W04QuQ?export=download'><b>Click Here to Download!!</b></a>
 
 ## Follow Protocols
 #### Wear Mask
